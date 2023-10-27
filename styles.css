@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    background-color: #C3EEFA;
+    border: 3px solid gray;
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    overflow: auto;
+    align-items: center;
+    width: 1028px;
+    height: 500px;
+}
+
+.flex-item-1 {
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-iten-2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 128px;
+    height: 128px;
+}
+
+.on-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.on-hover:hover {
+    text-decoration: underline;
+    color: blue;
+}
